@@ -1,0 +1,243 @@
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 100%;
+}
+
+#buttons-to-pages {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 15rem;
+  align-items: center;
+}
+
+#main-blurb {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 50vw;
+  background-color: #74a18b;
+}
+
+#individual-name {
+  margin-top: 15rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#about-me-paragraph {
+  margin-top: 5rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#icons {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.icon-footer {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  color: #74a18b;
+}
+
+.icon-footer:hover {
+  color: black;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.link {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button-to-pages {
+  font-size: 1.2rem;
+}
+
+.button-to-pages:hover {
+  color: white;
+}
+
+.link > button {
+  background-color: #74a18b;
+  border: 2px dotted black;
+  width: 15rem;
+  height: 7rem;
+}
+
+#main-about-me {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0rem 25rem 2rem 25rem;
+  height: 50%;
+  color: #74a18b;
+  justify-content: center;
+}
+
+#head {
+  padding-bottom: 3rem;
+  font-size: 3rem;
+}
+
+#about-paragraph {
+  font-size: 1.2rem;
+}
+
+#experiences {
+  display: flex;
+  height: 50%;
+  margin-bottom: 15rem;
+}
+
+#jcu,
+#fullstack,
+#resume {
+  height: 100%;
+  width: 33%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+#experiences > hr {
+  height: 90%;
+}
+
+.link-to-pages {
+  color: #74a18b;
+}
+
+.link-to-pages:hover {
+  color: black;
+}
+
+.title {
+  padding-top: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.paragraph {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.years {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+#resume > .title {
+  padding-bottom: 2rem;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 44rem;
+}
+
+#project-1,
+#project-2,
+#project-3 {
+  display: flex;
+  height: 100%;
+}
+
+#photo-section-1,
+#photo-section-2,
+#photo-section-3 {
+  width: 50%;
+  padding: 1rem;
+}
+
+#text-section-1,
+#text-section-2,
+#text-section-3 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.individual-about,
+.individual-title,
+.individual {
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.individual-about,
+.individual {
+  font-size: 1.2rem;
+}
+
+.individual-title {
+  font-size: 2rem;
+}
+
+footer {
+  width: 100vw;
+  height: 5.5rem;
+  margin: 50px auto 0px auto;
+  text-align: center;
+  padding: 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-top: 2px dotted black;
+}
+
+#back-home {
+  color: #74a18b;
+  align-self: center;
+  padding-left: 2rem;
+}
+
+#back-home:hover {
+  color: black;
+}
